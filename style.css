@@ -1,0 +1,51 @@
+
+.montserrat {
+	font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+*{
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+}
+
+body{
+	background-color: #f3f3f3;
+}
+
+header{
+	display: flex;
+	background-color: #ffffff;
+	width: 100%;
+	height: auto;
+}
+.header-logo, .header-login{
+	display: flex;
+	padding: 20px 20px 20px 20px;
+	height: 100px;
+	width: 100px;
+	align-items: center;
+	justify-content: center;
+}
+.header-options{
+	display: flex;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 70%;
+}
+.header-link{
+	border: 8px solid black;
+}
+.login-button{
+	font-size: large;
+	width: auto;
+	height: auto;
+	background-color:aquamarine;
+}
+
+
+
