@@ -17,9 +17,11 @@ body{
 
 header{
 	display: flex;
+    justify-content: space-evenly;
 	background-color: #ffffff;
 	width: 100%;
 	height: auto;
+    border-radius: 25px;
 }
 .header-logo, .header-login{
 	display: flex;
@@ -39,6 +41,9 @@ header{
 }
 .header-link{
 	border: 8px solid black;
+}
+.header-link a{
+    color: black;
 }
 .login-button{
 	font-size: large;
