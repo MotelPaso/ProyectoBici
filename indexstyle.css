@@ -21,9 +21,18 @@ header{
 	background-color: #ffffff;
 	width: 100%;
 	height: auto;
+    border: 1px solid greenyellow;
     border-radius: 25px;
 }
-.header-logo, .header-login{
+.header-logo img{
+	display: flex;
+	padding: 20px 0px 0px 0px;
+	width: 130px;
+    height: 130px;
+	align-items: center;
+	justify-content: center;
+}
+.header-login {
 	display: flex;
 	padding: 20px 20px 20px 20px;
 	height: 100px;
@@ -40,13 +49,17 @@ header{
 	width: 70%;
 }
 .header-link{
-	border: 8px solid black;
+	border: 2px solid black;
+    padding: 15px;
+    border-radius: 2px;
 }
 .header-link a{
+    font-size: 20px;
     color: black;
+    padding: 15px;
 }
 .login-button{
-	font-size: large;
+	font-size: 22px;
 	width: auto;
 	height: auto;
 	background-color:aquamarine;
