@@ -1,0 +1,66 @@
+.rent{
+    display: flex;
+    flex-direction: row;
+}
+.rent-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    justify-content: left;
+    border-right: 3px groove black;
+    border-bottom: 3px groove black;
+}
+.rent-title{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+.rent-available{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 10px 0;
+}
+.rent-bikes{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.rent-bikes h6{
+    font-size: 30px;
+    margin: 10px 0 0 0;
+}
+.rent-bike-data{
+    font-size: 20px;
+    padding-left: 40px;
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+}
+.rent-select-bike {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: max-content;
+    font-size: medium;
+}
+.rent-select-bike button{
+    height: 50px;
+}
+.rent-process{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px groove black;
+}
+.rent-process h1{
+    text-align: center;
+}
+.bikes{
+    font-size: 20px;
+    padding: 10px;
+}
+.hidden{
+    visibility:visible;
+}
