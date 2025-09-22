@@ -1,16 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="loginstyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <p>login</p>
-    <button type="button" onclick="location.href='index.html'">go back?</button>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login</title>
+		<link rel="stylesheet" href="login.css" />
+		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="login-container">
+			<div class="login-title">
+				<h1>Inicio de sesión</h1>
+			</div>
+			<div class="login-input">
+				<div class="login-input-cont">
+					<p class="login-text">Nombre de usuario</p>
+					<input
+						class="login-inputbox"
+						type="text"
+						placeholder="Ingrese su username"
+					/>
+				</div>
+				<div class="login-input-cont">
+					<p class="login-text">Contraseña</p>
+					<input
+						class="login-inputbox"
+						type="password"
+						placeholder="Ingrese su contraseña"
+					/>
+				</div>
+				<a>Olvide mi contraseña.</a>
+				<button type="submit" class="login-button">Ingresar</button>
+
+				<p>No esta registrado? <a>Registrarme</a></p>
+			</div>
+		</div>
+	</body>
 </html>
