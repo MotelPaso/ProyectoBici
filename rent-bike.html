@@ -1,103 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="rentstyle.css">
-    <link rel="stylesheet" href="indexstyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Arrendar Bicicleta!</title>
-</head>
-<body>
-    <header>
-        <div class="header-logo">
-            <a href="index.html"><img src="templogo.jpg" alt="Logo"></a>
-            <!--TODO: fix temp logo-->
-        </div>
-        <div class="header-options">
-            <div class="header-link">
-                <a href="welcome.html">Bienvenida</a>
-            </div>
-            <div class="header-link">
-                <a href="rent-bike.html">Arrendar Bicicleta</a>
-                <!--TODO: check logged status-->
-            </div>
-            <div class="header-link">
-                <a href="return-bike.html">Devolver Bicicleta</a>
-                <!--TODO: check logged status-->
-            </div>
-            <div class="header-link">
-                <a href="contact.html">Contacto</a>
-            </div>
-        </div>
-        <div class="header-login">
-            <button class="login-button" type="button" onclick="location.href='login.html'">Ingresar</button>
-        </div>
-    </header>
-    <div class="rent">
-        <div class="rent-main">
-            <div class="rent-title">
-                <h1>Bicicletas disponibles:</h1>
-            </div>
-            <div class="rent-available">
-                <div class="rent-bikes">
-                    <div class="rent-bike-data">
-                        <h6>Bici 1</h6>
-                        <p>Datos bicicleta</p>
-                        <!--Add model and charge-->
-                    </div>
-                </div>
-                <div class="rent-select-bike">
-                    <button type="button">Seleccionar:</button>
-                </div>
-            </div>
-            <div class="rent-available">
-                <div class="rent-bikes">
-                    <div class="rent-bike-data">
-                        <h6>Bici 2</h6>
-                        <p>Datos bicicleta</p>
-                        <!--Add model and charge-->
-                    </div>
-                </div>
-                <div class="rent-select-bike">
-                    <button type="button">Seleccionar:</button>
-                </div>
-            </div>
-            <div class="rent-available">
-                <div class="rent-bikes">
-                    <div class="rent-bike-data">
-                        <h6>Bici 3</h6>
-                        <p>Datos bicicleta</p>
-                        <!--Add model and charge-->
-                    </div>
-                </div>
-                <div class="rent-select-bike">
-                    <button type="button">Seleccionar:</button>
-                </div>
-            </div>
-            <div class="rent-available">
-                <div class="rent-bikes">
-                    <div class="rent-bike-data">
-                        <h6>Bici 4</h6>
-                        <p>Datos bicicleta</p>
-                        <!--Add model and charge-->
-                    </div>
-                </div>
-                <div class="rent-select-bike">
-                    <button type="button">Seleccionar:</button>
-                </div>
-            </div>
-        </div>
-        <div class="rent-process">
-            <h1>Bicicleta Seleccionada!</h1>
-            <!-- If bike disponible, mostrar-->
-            <div class="rent-timepicker hidden" >
-                <h2>Horarios disponibles:</h2>
-                <p>Horarios aqui</p>
-            </div>
-        </div>
-    </div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="rent.css" />
+		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Arrendar Bicicleta!</title>
+	</head>
+	<body>
+		<header>
+			<div class="header-logo">
+				<a href="index.html"><img src="templogo.jpg" alt="Logo" /></a>
+				<!--TODO: fix temp logo-->
+			</div>
+			<div class="header-options">
+				<div class="header-link">
+					<a href="welcome.html">Bienvenida</a>
+				</div>
+				<div class="header-link">
+					<a href="rent-bike.html">Arrendar Bicicleta</a>
+					<!--TODO: check logged status-->
+				</div>
+				<div class="header-link">
+					<a href="return-bike.html">Devolver Bicicleta</a>
+					<!--TODO: check logged status-->
+				</div>
+				<div class="header-link">
+					<a href="contact.html">Contacto</a>
+				</div>
+			</div>
+			<div class="header-login">
+				<button
+					class="login-button"
+					type="button"
+					onclick="location.href='login.html'"
+				>
+					Ingresar
+				</button>
+			</div>
+		</header>
+		<div class="rent">
+			<div class="rent-main">
+				<div class="rent-title">
+					<h1>Bicicletas disponibles:</h1>
+				</div>
+				<div class="rent-available">
+					<div class="rent-bikes">
+						<div class="rent-bike-data">
+							<h6>Bici 1</h6>
+							<p>Datos bicicleta</p>
+							<!--Add model and charge-->
+						</div>
+					</div>
+					<div class="rent-select-bike">
+						<button type="button">Seleccionar:</button>
+					</div>
+				</div>
+				<div class="rent-available">
+					<div class="rent-bikes">
+						<div class="rent-bike-data">
+							<h6>Bici 2</h6>
+							<p>Datos bicicleta</p>
+							<!--Add model and charge-->
+						</div>
+					</div>
+					<div class="rent-select-bike">
+						<button type="button">Seleccionar:</button>
+					</div>
+				</div>
+				<div class="rent-available">
+					<div class="rent-bikes">
+						<div class="rent-bike-data">
+							<h6>Bici 3</h6>
+							<p>Datos bicicleta</p>
+							<!--Add model and charge-->
+						</div>
+					</div>
+					<div class="rent-select-bike">
+						<button type="button">Seleccionar:</button>
+					</div>
+				</div>
+				<div class="rent-available">
+					<div class="rent-bikes">
+						<div class="rent-bike-data">
+							<h6>Bici 4</h6>
+							<p>Datos bicicleta</p>
+							<!--Add model and charge-->
+						</div>
+					</div>
+					<div class="rent-select-bike">
+						<button type="button">Seleccionar:</button>
+					</div>
+				</div>
+			</div>
+			<div class="rent-process">
+				<h1>Bicicleta Seleccionada!</h1>
+				<!-- If bike disponible, mostrar-->
+				<div class="rent-timepicker hidden">
+					<h2>Horarios disponibles:</h2>
+					<p>Horarios aqui</p>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
