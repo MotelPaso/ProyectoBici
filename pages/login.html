@@ -22,6 +22,7 @@
 				<div class="login-input-cont">
 					<p class="login-text">Nombre de usuario</p>
 					<input
+						id = "nameText"
 						class="login-inputbox"
 						type="text"
 						placeholder="Ingrese su username"
@@ -30,16 +31,19 @@
 				<div class="login-input-cont">
 					<p class="login-text">Contraseña</p>
 					<input
+						id ="passText"
 						class="login-inputbox"
 						type="password"
 						placeholder="Ingrese su contraseña"
 					/>
 				</div>
 				<a>Olvide mi contraseña.</a>
-				<button type="submit" class="login-button">Ingresar</button>
-
-				<p>No esta registrado? <a>Registrarme</a></p>
+				<button id="loginbutton" type="submit" class="login-button">Ingresar</button>
+				<div class="register">
+					<p>No esta registrado?</p> <button id="register" class="login-button">Registrarme</button>
+				</div>
 			</div>
 		</div>
+		<script src="../scripts/login.js"></script>
 	</body>
 </html>
