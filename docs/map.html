@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/map.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <title>Arrendar Bicicleta!</title>
+</head>
+
+<body>
+    <header class="flex-container">
+        <div class="flex-container flex-center header-top">
+            <h1>Grupo 3</h1>
+            <div class="header-login">
+                <button class="index-login-button" type="button" onclick="location.href='login.html'">
+                    Ingresar
+                </button>
+            </div>
+        </div>
+        <nav class="flex-container header-options">
+            <div class="header-link">
+                <a href="index.html">Inicio</a>
+            </div>
+            <div class="header-link">
+                <a href="map.html">Mapa de Estaciones</a>
+                <!--TODO: check logged status-->
+            </div>
+            <div class="header-link">
+                <a href="return-bike.html">Mis Bicicletas</a>
+                <!--TODO: check logged status-->
+            </div>
+            <div class="header-link">
+                <a href="contact.html">Sobre Nosotros</a>
+            </div>
+        </nav>
+    </header>
+    <div class="flex-container flex-center text">
+        <p>Inicio > mapa de estaciones:</p>
+    </div>
+    <div class="flex-container main">
+        <div class="flex-container left">
+            <h1>Mapa</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2743.4514377282194!2d-71.3507959214887!3d-29.964136654067214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691c96c7da69653%3A0x5d0a67e0f7d9d617!2sEscuela%20de%20Ingenier%C3%ADa%20UCN%20Coquimbo!5e0!3m2!1sen!2scl!4v1759010511896!5m2!1sen!2scl"
+                width="950" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="flex-container right">
+            <h1>Parada 1</h1>
+            <div class="flex-container table">
+                <div class="flex-container tLeft">
+                    <h2>Modelos</h2>
+                    <p>M26578</p>
+                    <p>O2610T</p>
+                    <p>O2620T</p>
+                    <p>O2630T</p>
+                    <p>MTLPS8</p>
+
+                </div>
+                <div class="flex-container tRight">
+                    <h2>Carga Disponible</h2>
+                    <p>20%</p>
+                    <p>80%</p>
+                    <p>35%</p>
+                    <p>20%</p>
+                    <p>100%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

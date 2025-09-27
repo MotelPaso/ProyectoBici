@@ -52,6 +52,7 @@ nav {
 .header-top h1 {
 	margin-left: 20px;
 	font-size: 3rem;
+	text-shadow: 1px 1px 5px black;
 }
 .header-options {
 	background-color: var(--yellow);

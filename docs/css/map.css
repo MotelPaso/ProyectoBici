@@ -1,0 +1,40 @@
+.text {
+	color: grey;
+	margin: 0 auto;
+}
+.main {
+	height: 100vh;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.left {
+	flex-direction: column;
+	align-items: center;
+	width: 60%;
+	border: 1px solid black;
+}
+.left h1 {
+	width: 90%;
+	font-size: 2.5rem;
+	text-align: left;
+}
+.right {
+	flex-direction: column;
+	align-items: center;
+	width: 40%;
+	border: 1px solid black;
+}
+.right h1 {
+	font-size: 2.5rem;
+}
+.table {
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.tLeft {
+	flex-direction: column;
+}
+.tRight {
+	flex-direction: column;
+}
