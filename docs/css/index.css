@@ -61,17 +61,20 @@ nav {
 	padding-bottom: 20px;
 }
 .header-login {
-	display: flex;
 	padding: 20px 20px 20px 20px;
 	height: 100px;
-	width: 100px;
-	align-items: center;
-	justify-content: center;
+	width: 120px;
+}
+.header-login p {
+	margin: 0 auto;
 }
 .header-link {
 	border: 3px solid var(--blueColor);
 	padding: 10px;
 	border-radius: 15px;
+}
+.header-link:hover {
+	background-color: #dad36c;
 }
 .header-link a {
 	font-size: 20px;
@@ -79,13 +82,16 @@ nav {
 	color: var(--headerText);
 	padding: 10px;
 }
-.index-login-button {
+.login-button {
 	font-size: 20px;
+	font-weight: 500;
 	padding: 5px;
 	color: var(--textColor);
-	border-color: var(--silverColor);
-	border-radius: 15px;
+	border: none;
 	width: auto;
 	height: auto;
-	background-color: var(--buttonColor);
+	background-color: inherit;
+}
+.login-button:hover {
+	color: #bdbcbc;
 }
